@@ -50,7 +50,7 @@ For more info see: https://www.namecheap.com/support/knowledgebase/article.aspx/
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="HOST" Target="APP_HOST" Default="www" Mode="" Description="This is the host to be updated. e.g. 'www.'" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="DOMAIN" Target="APP_DOMAIN" Default="your domain.tld" Mode="" Description="This is the domain to be updated. e.g. yourdomain.tld" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="PASSWORD" Target="APP_PASSWORD" Default="" Mode="" Description="Your Dynamic DNS password. NOT your namecheap password." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="HOST" Target="APP_HOST" Default="www" Mode="" Description="This is the host to be updated. e.g. 'www.'" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DOMAIN" Target="APP_DOMAIN" Default="your domain.tld" Mode="" Description="This is the domain to be updated. e.g. yourdomain.tld" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="PASSWORD" Target="APP_PASSWORD" Default="" Mode="" Description="Your Dynamic DNS password. NOT your namecheap password." Type="Variable" Display="always" Required="true" Mask="false"/>
 </Container>
