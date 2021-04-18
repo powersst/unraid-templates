@@ -20,7 +20,7 @@ For more info see: https://www.namecheap.com/support/knowledgebase/article.aspx/
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1618741578</DateInstalled>
+  <DateInstalled>1618741708</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>This simple container will update a namecheap dynamic dns domain. You must set an 'A + Dynamic DNS Record' for the host and enable Dynamic DNS in the manage page for your domain. &#xD;
@@ -34,23 +34,23 @@ For more info see: https://www.namecheap.com/support/knowledgebase/article.aspx/
   <Data/>
   <Environment>
     <Variable>
-      <Value>vpn</Value>
+      <Value/>
       <Name>APP_HOST</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>edchamberlain.com</Value>
+      <Value/>
       <Name>APP_DOMAIN</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>10fd5ac1a14346db828b5a582928381d</Value>
+      <Value/>
       <Name>APP_PASSWORD</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="HOST" Target="APP_HOST" Default="www" Mode="" Description="This is the host to be updated. e.g. 'www.'" Type="Variable" Display="always" Required="false" Mask="false">vpn</Config>
-  <Config Name="DOMAIN" Target="APP_DOMAIN" Default="your domain.tld" Mode="" Description="This is the domain to be updated. e.g. yourdomain.tld" Type="Variable" Display="always" Required="false" Mask="false">edchamberlain.com</Config>
-  <Config Name="PASSWORD" Target="APP_PASSWORD" Default="" Mode="" Description="Your Dynamic DNS password. NOT your namecheap password." Type="Variable" Display="always" Required="false" Mask="false">10fd5ac1a14346db828b5a582928381d</Config>
+  <Config Name="HOST" Target="APP_HOST" Default="www" Mode="" Description="This is the host to be updated. e.g. 'www.'" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="DOMAIN" Target="APP_DOMAIN" Default="your domain.tld" Mode="" Description="This is the domain to be updated. e.g. yourdomain.tld" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PASSWORD" Target="APP_PASSWORD" Default="" Mode="" Description="Your Dynamic DNS password. NOT your namecheap password." Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
