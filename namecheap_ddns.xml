@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Namecheap_DDNS</Name>
+  <Name>Namecheap-DDNS</Name>
   <Repository>edchamberlain/namecheap_ddns</Repository>
   <Registry>https://hub.docker.com/r/edchamberlain/namecheap_ddns</Registry>
   <Network>bridge</Network>
