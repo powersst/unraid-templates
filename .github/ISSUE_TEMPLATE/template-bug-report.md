@@ -7,7 +7,7 @@ assignees: EdwardChamberlain
 
 ---
 
-**Before making this bug report please check that your issue is related to the template and not the application itself. Any application bugs should be reported to their respective repositories which can be found in the readme.md document. 
+**Before making this bug report please check that your issue is related to the template and not the application itself. Any application bugs should be reported to their respective repositories which can be found in the readme.md document.**
 
 **Describe the bug**
 A clear and concise description of what the bug is.
