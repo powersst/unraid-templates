@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1637763850</DateInstalled>
+  <DateInstalled>1637772697</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Shinobi built from source.</Description>
@@ -34,12 +34,17 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/Shinobi</HostDir>
-      <ContainerDir>/opt/Shinobi/config</ContainerDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/user/cctv/</HostDir>
-      <ContainerDir>/opt/Shinobi/videos</ContainerDir>
+      <ContainerDir>/home/Shinobi/videos</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/Shinobi/db</HostDir>
+      <ContainerDir>/var/lib/mysql</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
@@ -50,8 +55,9 @@
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="Config" Target="/opt/Shinobi/config" Default="" Mode="rw" Description="Storage location for config files. " Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Shinobi</Config>
-  <Config Name="Videos" Target="/opt/Shinobi/videos" Default="" Mode="rw" Description="Storage location for footage." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/cctv/</Config>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="Storage location for config files. " Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Shinobi</Config>
+  <Config Name="Videos" Target="/home/Shinobi/videos" Default="" Mode="rw" Description="Storage location for footage." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/cctv/</Config>
+  <Config Name="Database" Target="/var/lib/mysql" Default="" Mode="rw" Description="Container Path: /opt/Shinobi/database" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Shinobi/db</Config>
   <Config Name="WebGUI" Target="8080" Default="1441" Mode="tcp" Description="Container port 8080: WebGUI" Type="Port" Display="advanced" Required="false" Mask="false">1441</Config>
   <Config Name="Streams" Target="/dev/shm/Shinobi/streams" Default="" Mode="rw" Description="RAM location for streams [Must be RAM]" Type="Path" Display="advanced" Required="false" Mask="false">/dev/shm/streams</Config>
 </Container>
