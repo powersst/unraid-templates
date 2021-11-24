@@ -9,7 +9,8 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/EdwardChamberlain/unraid-templates/issues</Support>
   <Project>https://gitlab.com/Shinobi-Systems/Shinobi</Project>
-  <Overview>Shinobi built from source.</Overview>
+  <Overview>THE OPEN SOURCE CCTV SOLUTION&#xD;
+The Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.</Overview>
   <Category>HomeAutomation: MediaApp:Video MediaServer:Video Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
@@ -17,10 +18,11 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1637772697</DateInstalled>
+  <DateInstalled>1637782053</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Shinobi built from source.</Description>
+  <Description>THE OPEN SOURCE CCTV SOLUTION&#xD;
+The Next Generation in Open-Source Video Management Software with support for over 6000 IP and USB Cameras.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
