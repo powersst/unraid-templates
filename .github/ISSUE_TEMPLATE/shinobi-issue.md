@@ -2,7 +2,7 @@
 name: Shinobi Issue
 about: 'Use this template for issues relating to the Shinobi image. '
 title: ''
-labels: ''
+labels: Shinobi
 assignees: EdwardChamberlain
 
 ---
