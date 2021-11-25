@@ -4,4 +4,4 @@ Templates for unRAID Community Applications. This repository does not contain an
 ## In this Repo
 - [Namecheap DDNS](https://github.com/EdwardChamberlain/namecheap_ddns)
 - [IPMI Tools](https://github.com/EdwardChamberlain/IPMI-Fan-Controller)
-- Shinobi - Built weekly.
+- [Shinobi](https://shinobi.video) - Built weekly.
